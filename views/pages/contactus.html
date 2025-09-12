@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArtistGrade | Contact Us</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar Include -->
+  <%- include('partials/nav') %>
+
+  <!-- Artist Image -->
+  <div class="container my-4">
+    <img
+      src="https://images.pexels.com/photos/15870647/pexels-photo-15870647.jpeg"
+      alt="Artist at Work in Studio"
+      class="artist-image"
+    />
+  </div>
+
+  <!-- Header -->
+  <header class="contact-header">
+    <h1>Customer Help</h1>
+    <p>If talking to a real-life human is more your style, reach out to our Customer Happiness Team below.</p>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section container">
+    <div class="row g-4">
+      <!-- Sidebar Links -->
+      <div class="col-lg-3 col-md-4 col-12 sidebar-links">
+        <h6 class="fw-bold mb-3">How Can We Help?</h6>
+        <a href="#">FAQs</a>
+        <a href="#">Ordering</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns + Exchanges</a>
+        <a href="#">International</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6 col-md-8 col-12 contact-form">
+        <h5 class="mb-3 text-center text-md-start">Contact Us</h5>
+        <form>
+          <input type="text" class="form-control mb-3" placeholder="Subject" required>
+          <input type="text" class="form-control mb-3" placeholder="Name" required>
+          <input type="email" class="form-control mb-3" placeholder="Email" required>
+          <textarea rows="5" class="form-control mb-3" placeholder="Your message..." required></textarea>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" required>
+            <label class="form-check-label">I'm not a robot</label>
+          </div>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+
+      <!-- Support Hours -->
+      <div class="col-lg-3 col-md-12 col-12 text-center text-lg-start">
+        <h6 class="fw-bold">Support Hours</h6>
+        <p>Mon–Fri: 9:00 am – 5:00 pm PST<br>*Excludes Holidays</p>
+        <p>Need more info on products, shipping, or fabric?</p>
+        <a href="#" class="fw-bold text-decoration-none">View FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get in Touch -->
+  <section class="get-in-touch">
+    <h4>Get in Touch</h4>
+    <p>Have questions about your order or a general inquiry?</p>
+    <button class="btn btn-dark">Email Us</button>
+  </section>
+
+  <!-- Footer Include -->
+  <%- include('partials/footer') %>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
