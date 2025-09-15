@@ -198,6 +198,25 @@ body {
 .index-page .navbar-nav .nav-link.active {
   color: #e74c3c !important;
 }
+ .cart-icon i {
+    font-size: 1.5rem;   /* bigger size */
+    color: #333;         /* dark gray */
+    transition: 0.3s;
+  }
+  .cart-icon i:hover {
+    color: #ff6600;      /* hover effect */
+    transform: scale(1.2);
+  }
+
+  /* Better responsiveness */
+  @media (max-width: 576px) {
+    .top-bar {
+      font-size: 0.9rem;  /* slightly smaller text */
+    }
+    .left-text {
+      margin-bottom: 5px;
+    }
+  }
 
 /* Carousel */
 .index-page .carousel-item img {
