@@ -1,0 +1,23 @@
+{
+  "name": "artistgrade",
+  "version": "1.0.0",
+  "description": "only front end part is there",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddhantShedge45/ArtistGrade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiddhantShedge45/ArtistGrade/issues"
+  },
+  "homepage": "https://github.com/SiddhantShedge45/ArtistGrade#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
