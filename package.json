@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SiddhantShedge45/ArtistGrade#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
   }
 }
